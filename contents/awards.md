@@ -1,16 +1,6 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
+●价值引领-战略驱动-五融并举的机器人拔尖人才培养探索与实践，国家教学成果二等奖（2/10）；
 
-- National Scholarship for Graduate Student, 2024.
+●复杂场景机器视觉鲁棒感知关键技术及应用，中国图象图形学学会科技进步一等奖（1/10）；
 
-- First-Prize Scholarship (CUMT), 2024.
-
-- First-Prize Scholarship (CUMT), 2023.
-
-- Freshman Scholarship (CUMT), 2022.
-
-- Outstanding Graduation Project Award (Jiangsu Province), 2022.
-
-- First-Prize Enterprise Scholarship (CUMT), 2020.
-
-- First-Prize Scholarship (CUMT), 2019.
+●中国自动化学会青年科学家奖，2022年。
