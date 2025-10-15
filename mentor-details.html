@@ -100,26 +100,34 @@
             <header class="mb-6">
                 <h2>导师风采</h2>
             </header>
-            <!-- 网格布局：优化间距（水平+垂直），小屏幕自适应1列 -->
-            <div class="row gx-5 gy-6">
-                <!-- 图片项1 -->
-                <div class="col-12 col-md-6"> <!-- 小屏1列，中大屏2列 -->
-                    <img src="static/assets/img/personal/beijing1.jpg" alt="北京校友演讲" class="shadow rounded w-100">
-                    <p class="mt-2 text-center">图片描述1（例如：学术报告现场）</p>
-                </div>
-                <!-- 图片项2 -->
+            
+            <!-- 文字介绍部分 -->
+            <div class="mb-8">
+                <p class="text-justify text-wrap" style="word-break: break-all; line-height: 1.8; font-size: 1rem;">
+                    2004届院友，湖南大学电气与信息工程学院教授、副院长刘敏为同学们送上祝福。他结合自己毕业20年来的工作经历，为同学们分享了几点人生感悟：第一，自信人生二百年，会当水击三千里。无论身处何地，担任何种职位，都应自信满满。第二，人生万事须自为，跬步江山即寥廓。他希望同学们以奋楫笃行的心态，做久久为功的努力。第三，长风破浪会有时，直挂云帆济沧海。大家要坚定自己的信仰，心有所信，方能行远。他希望同学们能够保持北大人的精神傲骨，将北大精神发扬光大。
+                </p>
+            </div>
+            
+            <!-- 图片部分 -->
+            <div class="row gx-5 gy-6 mb-8"> <!-- 图片底部增加mb-8，与分隔线保持距离 -->
                 <div class="col-12 col-md-6">
-                    <img src="static/assets/img/personal/beijing2.jpg" alt="导师风采图片2" class="shadow rounded w-100">
-                    <p class="mt-2 text-center">图片描述2（例如：科研指导瞬间）</p>
+                    <img src="static/assets/img/personal/beijing1.jpg" alt="北京校友演讲" class="shadow rounded w-100 hover:shadow-lg transition-shadow duration-300">
                 </div>
-                <!-- 图片项3：优化长文字显示 -->
                 <div class="col-12 col-md-6">
-                    <img src="static/assets/img/personal/beijing3.jpg" alt="导师风采图片3" class="shadow rounded w-100">
-                    <!-- 用 text-justify 实现两端对齐，保留自动换行样式 -->
-                    <p class="mt-2 text-justify text-wrap" style="word-break: break-all;">
-                        2004届院友，湖南大学电气与信息工程学院教授、副院长刘敏为同学们送上祝福。他结合自己毕业20年来的工作经历，为同学们分享了几点人生感悟：第一，自信人生二百年，会当水击三千里。无论身处何地，担任何种职位，都应自信满满。第二，人生万事须自为，跬步江山即寥廓。他希望同学们以奋楫笃行的心态，做久久为功的努力。第三，长风破浪会有时，直挂云帆济沧海。大家要坚定自己的信仰，心有所信，方能行远。他希望同学们能够保持北大人的精神傲骨，将北大精神发扬光大。
-                    </p>
+                    <img src="static/assets/img/personal/beijing2.jpg" alt="导师风采图片2" class="shadow rounded w-100 hover:shadow-lg transition-shadow duration-300">
                 </div>
+                <div class="col-12 col-md-6">
+                    <img src="static/assets/img/personal/beijing3.jpg" alt="导师风采图片3" class="shadow rounded w-100 hover:shadow-lg transition-shadow duration-300">
+                </div>
+            </div>
+            
+            <!-- 分隔线：美观且与整体风格协调 -->
+            <hr style="border: none; height: 1px; background: linear-gradient(90deg, transparent, #666, transparent); max-width: 90%; margin: 0 auto;">
+            
+            <!-- 预留后续内容位置 -->
+            <div class="mt-8">
+                <!-- 这里可以添加下一部分内容 -->
+                <!-- 例如：<h3>下一部分标题</h3> -->
             </div>
         </div>
     </section>
