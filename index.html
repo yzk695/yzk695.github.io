@@ -179,9 +179,15 @@
             <div class="team-scroll-container">
                 <div class="team-gallery d-flex gap-6 pb-2">
                     <!-- 团队图片1 -->
-                    <div class="gallery-item flex-shrink-0">
-                        <img src="static/assets/img/personal/beijing3.jpg" alt="团队合影" class="shadow rounded" width="300" height="200">
-                        <p class="mt-2 text-center">北京大学信科院2024年毕业典礼作为校友代表发表演讲</p>
+                    <div class="gallery-item flex-shrink-0" style="width: 300px;"> <!-- 固定项宽度，与图片宽度一致 -->
+                        <!-- 图片：保持比例，避免变形 -->
+                        <img src="static/assets/img/personal/beijing3.jpg" 
+                            alt="团队合影" 
+                            class="shadow rounded w-100 h-200 object-cover"> <!-- w-100自适应容器，object-cover保持比例 -->
+                        <!-- 文字：限制宽度=图片宽度，自动换行，居中对齐 -->
+                        <p class="mt-2 text-center" style="max-width: 300px; white-space: normal; word-wrap: break-word;">
+                            北京大学信科院2024年毕业典礼作为校友代表发表演讲
+                        </p>
                     </div>
                 </div>
             </div>
