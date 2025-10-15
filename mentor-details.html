@@ -95,24 +95,34 @@
 
     <!-- 导师风采-更多详情内容区域 -->
     <section class="bg-gradient-primary-to-secondary-gray mt-8 py-8" id="person-details">
-        <!-- 网格布局：每行两列 -->
-        <div class="row g-4">
-            <!-- 图片项1 -->
-            <div class="col-md-6">
-                <img src="static/assets/img/personal/beijing1.jpg" alt="北京校友演讲" class="shadow rounded w-100">
-                <p class="mt-2 text-center">图片描述1（例如：学术报告现场）</p>
+        <!-- 外层容器：实现两边留白，与页面其他板块对齐 -->
+        <div class="container px-5">
+            <header class="mb-6">
+                <h2>导师风采</h2>
+            </header>
+            <!-- 网格布局：优化间距（水平+垂直），小屏幕自适应1列 -->
+            <div class="row gx-5 gy-6">
+                <!-- 图片项1 -->
+                <div class="col-12 col-md-6"> <!-- 小屏1列，中大屏2列 -->
+                    <img src="static/assets/img/personal/beijing1.jpg" alt="北京校友演讲" class="shadow rounded w-100">
+                    <p class="mt-2 text-center">图片描述1（例如：学术报告现场）</p>
+                </div>
+                <!-- 图片项2 -->
+                <div class="col-12 col-md-6">
+                    <img src="static/assets/img/personal/beijing2.jpg" alt="导师风采图片2" class="shadow rounded w-100">
+                    <p class="mt-2 text-center">图片描述2（例如：科研指导瞬间）</p>
+                </div>
+                <!-- 图片项3：优化长文字显示 -->
+                <div class="col-12 col-md-6">
+                    <img src="static/assets/img/personal/beijing3.jpg" alt="导师风采图片3" class="shadow rounded w-100">
+                    <!-- 长文字限制行数+hover显示完整内容，避免破坏布局 -->
+                    <p class="mt-2 text-center text-truncate" 
+                    style="max-width: 100%; max-lines: 3; -webkit-line-clamp: 3; display: -webkit-box; -webkit-box-orient: vertical;"
+                    title="2004届院友，湖南大学电气与信息工程学院教授、副院长刘敏为同学们送上祝福。他结合自己毕业20年来的工作经历，为同学们分享了几点人生感悟：第一，自信人生二百年，会当水击三千里。无论身处何地，担任何种职位，都应自信满满。第二，人生万事须自为，跬步江山即寥廓。他希望同学们以奋楫笃行的心态，做久久为功的努力。第三，长风破浪会有时，直挂云帆济沧海。大家要坚定自己的信仰，心有所信，方能行远。他希望同学们能够保持北大人的精神傲骨，将北大精神发扬光大。">
+                        2004届院友，湖南大学电气与信息工程学院教授、副院长刘敏为同学们送上祝福。他结合自己毕业20年来的工作经历，为同学们分享了几点人生感悟：第一，自信人生二百年，会当水击三千里。无论身处何地，担任何种职位，都应自信满满。第二，人生万事须自为，跬步江山即寥廓。他希望同学们以奋楫笃行的心态，做久久为功的努力。第三，长风破浪会有时，直挂云帆济沧海。大家要坚定自己的信仰，心有所信，方能行远。他希望同学们能够保持北大人的精神傲骨，将北大精神发扬光大。
+                    </p>
+                </div>
             </div>
-            <!-- 图片项2 -->
-            <div class="col-md-6">
-                <img src="static/assets/img/personal/beijing2.jpg" alt="导师风采图片2" class="shadow rounded w-100">
-                <p class="mt-2 text-center">图片描述2（例如：科研指导瞬间）</p>
-            </div>
-            <!-- 可继续添加更多图片项 -->
-            <div class="col-md-6">
-                <img src="static/assets/img/personal/beijing3.jpg" alt="导师风采图片3" class="shadow rounded w-100">
-                <p class="mt-2 text-center">2004届院友，湖南大学电气与信息工程学院教授、副院长刘敏为同学们送上祝福。他结合自己毕业20年来的工作经历，为同学们分享了几点人生感悟：第一，自信人生二百年，会当水击三千里。无论身处何地，担任何种职位，都应自信满满。第二，人生万事须自为，跬步江山即寥廓。他希望同学们以奋楫笃行的心态，做久久为功的努力。第三，长风破浪会有时，直挂云帆济沧海。大家要坚定自己的信仰，心有所信，方能行远。他希望同学们能够保持北大人的精神傲骨，将北大精神发扬光大。</p>
-            </div>
-
         </div>
     </section>
 
